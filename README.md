@@ -16,13 +16,13 @@ npm install keep-pace
 keep sync /tmp/source /usr/local/dest
 ~~~
 
-## DONE
+## Feature
 
 - [x] 支持文件(夹)
 - [x] 支持覆盖
 - [x] 支持过滤
 
-## TODO
+## Todo List
 
 - [ ] 使用 ts 重写
 - [ ] 支持 Windows
