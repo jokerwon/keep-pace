@@ -20,6 +20,9 @@
     "README.md",
     "README.zh.md"
   ],
+  "repository": {
+    "url": "https://github.com/jokerwon/keep-pace"
+  },
   "author": "jokerwon",
   "license": "MIT",
   "dependencies": {
