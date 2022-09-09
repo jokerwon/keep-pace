@@ -1,0 +1,32 @@
+{
+  "name": "keep-pace",
+  "version": "0.0.1-alpha-0.0.1",
+  "description": "a pace keeper for file system",
+  "bin": {
+    "keep": "./bin/index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file management",
+    "tool",
+    "cli"
+  ],
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "README.zh.md"
+  ],
+  "author": "jokerwon",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "ora": "^6.1.2"
+  }
+}
