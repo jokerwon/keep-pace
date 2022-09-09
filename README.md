@@ -15,3 +15,19 @@ npm install keep-pace
 ~~~shell
 keep sync /tmp/source /usr/local/dest
 ~~~
+
+## DONE
+
+[x] 支持文件(夹)
+[x] 支持覆盖
+[x] 支持过滤
+
+## TODO
+
+[ ] 使用 ts 重写
+[ ] 支持 Windows
+[ ] 支持 glob 过滤
+[ ] 支持配置文件
+[ ] 支持文件监听，实时同步
+[ ] 覆盖规则细化方案
+[ ] 回退？
