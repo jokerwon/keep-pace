@@ -11,7 +11,14 @@ program
   .description("Synchronize two directories or files")
   .option("-f, --force", "overwrite target directory if it exists", true)
   .option("-i, --ignore <string>", "file or directory in ignore list will not sync")
-  .action(runner);
+  .action((...args) => runner('sync', ...args));
+
+  program
+  .command("watch <source> <destination>")
+  .description("Synchronize two directories or files on real time")
+  .option("-f, --force", "overwrite target directory if it exists", true)
+  .option("-i, --ignore <string>", "file or directory in ignore list will not sync")
+  .action((...args) => runner('watch', ...args));
 
 program.on("--help", () => {
   console.log(`
