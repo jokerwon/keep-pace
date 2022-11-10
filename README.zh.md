@@ -15,8 +15,22 @@ npm install keep-pace
 `keep-pace` 目前只支持以 `cli` 工具来使用。
 你可以在控制台输入以下命令来将 `source` 文件夹同步到 `dest`。
 
+### sync
+
+`keep watch <TARGET_DIRECTORY> <DESTINATION>`
+
 ~~~shell
 keep sync /tmp/source /usr/local/dest
+~~~
+
+### watch
+
+开启一个进程来监听目标文件, 被改动的文件(夹)会自动地实时同步到指定的位置。
+
+`keep watch <TARGET_DIRECTORY> <DESTINATION>`
+
+~~~shell
+keep watch /tmp/source /usr/local/dest
 ~~~
 
 ## 完成

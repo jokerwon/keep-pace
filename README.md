@@ -7,13 +7,25 @@
 ## Installation
 
 ~~~shell
-npm install keep-pace
+npm install -g keep-pace
 ~~~
 
 ## Usage
 
+### sync
+
 ~~~shell
 keep sync /tmp/source /usr/local/dest
+~~~
+
+### watch
+
+start a progress to watch the source directory, and the changed files or directories will be synchronized to destination automatically on real time.
+
+`keep watch <SOURCE_DIRECTORY> <DESTINATION>`
+
+~~~shell
+keep watch /tmp/source /usr/local/dest
 ~~~
 
 ## Feature
