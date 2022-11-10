@@ -1,4 +1,4 @@
-# keep-pace
+# keep-pace (*WIP)
 
 `keep-pace` is a file synchronization tool. The original use scenario was to simplify synchronizing files with each other when developing under *dual version control*. With keep-pace, you can easily copy one or more files(directories) to a specified path to merge/replace the target files or directories.
 
